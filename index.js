@@ -1,5 +1,3 @@
 function updateObjectWithKeyandValue(object,key,value){
-  let newObj = object[key] = value;
-  // let copy = object.constructor();
-  return newObj;
+return Object.assign({}, object, { [key]: value })
 }
