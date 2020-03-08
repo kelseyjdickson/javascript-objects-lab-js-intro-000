@@ -1,3 +1,4 @@
 function updateObjectWithKeyandValue(object,key,value){
-  return object[key];
+  object[key] = value;
+  return obj;
 }
